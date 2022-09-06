@@ -1,0 +1,32 @@
+.header {
+  margin: 20px 0px 50px;
+  padding: 10px 0px;
+  border-bottom: 1px solid #88888880;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  font-weight: 600;
+  font-size: x-large;
+}
+
+.list {
+  list-style: none;
+  display: inline-flex;
+  margin: 0px;
+  padding: 0.5rem;
+}
+
+.list li {
+  margin-left: 20px;
+  font-size: medium;
+}
+
+.list a {
+  color: #000;
+}
+
+.list a:hover {
+  color: rgba(228, 143, 143, 0.658);
+}
