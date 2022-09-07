@@ -1,0 +1,36 @@
+.form {
+  padding: 15px 20px 10px;
+}
+.control {
+  display: grid;
+}
+.control label {
+  float: left;
+  padding: 8px 0px 2px 0px;
+  text-align: initial;
+  font-weight: bold;
+}
+
+.control input,
+textarea {
+  padding: 4px;
+  border: 1px solid #c7c4c4b8;
+  border-radius: 5px;
+}
+
+.actions {
+  margin: 20px 0px 0px 0px;
+}
+
+.actions button {
+  padding: 12px 22px;
+  background: lightblue;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 3px 8px 0px #888888;
+}
+
+.actions button:hover {
+  background: #fff;
+  box-shadow: 1px 3px 8px 0px #888888;
+}
