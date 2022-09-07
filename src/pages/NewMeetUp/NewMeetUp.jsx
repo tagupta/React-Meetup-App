@@ -20,7 +20,7 @@ const NewMeetUpPage = () => {
 
   return (
     <section>
-      <h1>Add new Meetup</h1>
+      <h3>Add new Meetup</h3>
       <NewMeetUpForm onAddMeetUp={addMeetUpHandler} />
     </section>
   );
