@@ -30,3 +30,10 @@
 .list a:hover {
   color: rgba(228, 143, 143, 0.658);
 }
+.list span {
+  padding: 0 1rem;
+  color: #fff;
+  background: #cc2062;
+  border-radius: 5px;
+  margin-left: 0.5rem;
+}

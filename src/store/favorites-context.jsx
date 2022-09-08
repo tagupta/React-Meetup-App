@@ -13,8 +13,7 @@ export function FavoriteContextProvider({ children }) {
 
   const addFavoriteHandler = (favoriteMeetUp) => {
     setUserFavorites((prevUserFavorites) => {
-      prevUserFavorites.push(favoriteMeetUp);
-      return prevUserFavorites;
+      return prevUserFavorites.concat(favoriteMeetUp);
     });
   };
 
@@ -25,7 +24,7 @@ export function FavoriteContextProvider({ children }) {
   };
 
   const itemIsFavoriteHandler = (meetupId) => {
-    return userFavorites.some((meetUp) => meetUp.Id === meetupId);
+    return userFavorites.some((meetUp) => meetUp.id === meetupId);
   };
 
   const context = {
